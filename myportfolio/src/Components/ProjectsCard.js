@@ -31,9 +31,6 @@ function ProjectsCard(props) {
     <div>
       <Card className={classes.card}>
         <CardContent>
-          <Typography variant="headline" component="h2">
-            Improve Performance of Web Pages:
-          </Typography>
           <Typography component="p">
             <Projects />
           </Typography>

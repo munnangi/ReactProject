@@ -1,5 +1,5 @@
 import React from 'react';
-import ClippedDrawer  from '../src/Components/ClippedDrawer';
+import ResponsiveDrawer  from '../src/Components/ResponsiveDrawer';
 // import AppBar from '../src/Components/AppBar';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import './App.css';
@@ -12,7 +12,7 @@ class App extends React.Component {
         <CssBaseline>
           <BrowserRouter>
             <div className="AppWidth">
-              <ClippedDrawer />
+              <ResponsiveDrawer />
             </div>
           </BrowserRouter>
         </CssBaseline>

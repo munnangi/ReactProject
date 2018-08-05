@@ -38,9 +38,7 @@ function SimpleExpansionPanel(props) {
           <Typography className={classes.heading}>Profile of Qualifications</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
             <ProfileQualifications />
-          </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel defaultExpanded={true} >
@@ -51,9 +49,7 @@ function SimpleExpansionPanel(props) {
           <Typography className={classes.heading}>Technical Skills</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
             <TechnicalSkills />
-          </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel defaultExpanded={true}>
@@ -64,9 +60,7 @@ function SimpleExpansionPanel(props) {
           <Typography className={classes.heading}>Work Experience</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
             <WorkExperienceSS />
-          </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel defaultExpanded={true}>
@@ -77,9 +71,7 @@ function SimpleExpansionPanel(props) {
           <Typography className={classes.heading}>Education</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
             <Education />
-          </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
     </div>

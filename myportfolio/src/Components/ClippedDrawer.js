@@ -110,7 +110,7 @@ function ClippedDrawer(props) {
       <AppBar position="absolute" className={classes.appBar}>
         <Toolbar className={classes.titleText}>
           <Typography variant="title" color="inherit">
-            Prasanna Munnangi
+            Prasanna Kumar M
           </Typography>
           <div className={classes.profilePhotoIcon}>
             <IconButton color="inherit">

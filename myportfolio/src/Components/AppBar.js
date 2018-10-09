@@ -45,7 +45,7 @@ class MenuAppBar extends React.Component {
         <AppBar position="static">
           <Toolbar>
             <Typography variant="title" color="inherit" className={classes.flex}>
-              Prasanna Munnangi
+              Prasanna Kumar M
             </Typography>
             {auth && (
               <div>

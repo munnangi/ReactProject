@@ -22,7 +22,7 @@ function ImageAvatar(props) {
   const { classes } = props;
   return (
     <div className={classes.row}>
-      <Avatar alt="Prasanna Munnangi" src={profilePhoto} className={ classes.avatar, classes.bigAvatar } />
+      <Avatar alt="Prasanna Kumar M" src={profilePhoto} className={ classes.avatar, classes.bigAvatar } />
     </div>
   );
 }

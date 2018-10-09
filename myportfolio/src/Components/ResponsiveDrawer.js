@@ -152,7 +152,7 @@ class ResponsiveDrawer extends React.Component {
             </IconButton>
             <div className={classes.titleText}>
               <Typography variant="title" color="inherit">
-                Prasanna Munnangi
+                Prasanna Kumar M
               </Typography>
               <div className={classes.profilePhotoIcon}>
                 <IconButton color="inherit">

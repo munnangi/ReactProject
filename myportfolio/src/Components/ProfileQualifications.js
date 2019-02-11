@@ -7,10 +7,11 @@ class ProfileQualifications extends React.Component {
       <section>
         <ul >
           <Typography>
-            <li>5+ years of experience in developing web pages using <b>PHP, HTML, CSS, REACT</b> in a fast-paced environment using agile development methodology.</li>
+            <li>6 years of experience in developing web pages using <b>PHP, HTML, CSS, REACT</b> in a fast-paced environment using agile development methodology.</li>
             <li>Thorough knowledge of <b>OOP principles</b> and <b>design patterns</b>.</li>
             <li>Developing compatible User Experience functionality using <b>jQuery</b>.</li>
-            <li>5+ years of programming experience in writing <b>SQL queries on MS SQL Server, Oracle, MySQL DBMS platforms</b>.</li>
+            <li>6 years of programming experience in writing <b>SQL queries on MS SQL Server, Oracle, MySQL DBMS platforms</b>.</li>
+            <li>Experience in working with <strong>ES6 features</strong> and used <strong>Babel, Webpack</strong> with ES5, ReactJS.</li>
             <li>Excellent written and verbal communication skills blended with interpersonal and conflict resolution skills.</li>
             <li>Versatile, adaptable to new emerging technologies, innovative team player with strong problem solving and analytic capabilities ready to take up challenging tasks.</li>
             <li>Developed fully functional, cross browser compatible websites.</li>

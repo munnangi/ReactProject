@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Typography from '@material-ui/core/Typography';
 
 class Projects extends React.Component {
   render() {
     return (
-      <div>
+      <Fragment>
         <div>
           <Typography variant="headline" component="h2">
             Improve Performance of Web Pages:
@@ -53,14 +53,28 @@ class Projects extends React.Component {
             Bring 250ok Spam trap data into the database tables:
           </Typography>
           <ul>
-            <li>Used x-api-key header to set the apikey</li>
-            <li>Created Api consumer which fetches data from the 250ok api</li>
-            <li>The results of the api call are validated and inserted into the database</li>
-            <li>Used cURL to set options and perform a cURL session</li>
-            <li>Created a cronjob which adds jobs to the MailQueue service</li>
+            <li>Used x-api-key header to set the apikey.</li>
+            <li>Created Api consumer which fetches data from the 250ok api.</li>
+            <li>The results of the api call are validated and inserted into the database.</li>
+            <li>Used cURL to set options and perform a cURL session.</li>
+            <li>Created a cronjob which adds jobs to the MailQueue service.</li>
           </ul>
         </div>
-      </div>
+        <div>
+          <Typography variant="headline" component="h2">
+            Modal, users can use to send emails to leads in a list (List Send Modal):
+          </Typography>
+          <ul>
+            <li>Used React JS to create reusable components.</li>
+            <li>Utilized Antd React Components to create the modal.</li>
+            <li>Created apollo client store and initalized the default values for checkboxes and radio buttons.</li>
+            <li>Created resolvers to update apollo local storage based on user interactions.</li>
+            <li>Wrote GraphQL queries to fetch data from the GraphQL API and used the data to populate emails, lists etc.,.</li>
+            <li>Used TypeScript static typing language to curb errors.</li>
+            <li>This feature was introduced to all the clients on companys platform.</li>
+          </ul>
+        </div>
+      </Fragment>
     );
   }
 }

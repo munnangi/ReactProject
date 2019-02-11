@@ -6,15 +6,16 @@ class TechnicalSkills extends React.Component {
     return (
       <section>
         <Typography>
-          <b>Programming Languages:</b> PHP 5.3, PHP 5.6, PHP 7, C/C++, PL/SQL, PERL, SAS, C#.NET, Java, JavaScript, jQuery<br/>
-          <b>Technologies:</b>  React, Redux, GraphQL, Apollo Client, HTML5, CSS3, SVN & GIT version control, Apache, IIS webserver, AngularJS, Bootstrap,
-            SOAP Web services, SCRUM, JSON, XML, Memcached, AJAX, WAMP, LAMP, EJS, Material UI, Antd, TypeScript  <br/>
-          <b>Databases:</b> Oracle 11g, PostgreSQL, MS SQL server 2008, MySQL, MS Access<br/>
-          <b>Software Tools:</b> YouTrack, Doctrine ORM, PHPUnit, PHPStorm10, Chrome Dev Console, Zend MVC, Vagrant, Symfony MVC, Twig PHP Template,
-          Guzzle HTTP client, HighCharts, DataTables API, Composer, BuildMaster, Behat, XDebug, Splunk, Postman, Komodo, NetBeans, Eclipse,
-          MS Office, GitHub, Docker<br/>
-          <b>Scripting Languages:</b> UNIX and Shell scripting, PERL<br/>
-          <b>Certifications:</b> Base SAS certified, Advanced SAS certified
+          <strong>Programming Languages:</strong> PHP/PHP 7, JavaScript, TypeScript, Java, Golang, PL/SQL, PERL, SAS, C#.NET<br/>
+          <strong>Technologies:</strong>  React, Redux, GraphQL, Apollo Client, HTML5, CSS3, SVN & GIT version control, Material UI, Antd, Apache, IIS webserver, AngularJS, Bootstrap,
+            SOAP Web services, SCRUM, JSON, XML, Memcached, AJAX, WAMP, LAMP, EJS  <br/>
+          <strong>Databases:</strong> Oracle 11g, PostgreSQL, MS SQL server 2008, MySQL, MS Access<br/>
+          <strong>Software Tools:</strong> AWS, GCP, JIRA, NPM, Figma, SaSS, Less, Webpack, Gulp, Doctrine ORM, PHPUnit, PHPStorm10, Chrome
+            Dev Console, Zend MVC, Vagrant, Symfony MVC, Guzzle HTTP client, HighCharts, DataTables API, Composer,
+            XDebug, Splunk, Postman, Komodo, NetBeans, Eclipse, GitHub, Docker, Jenkins CI, Kubernetes, Kibana,
+            Redis, Slack, Phinx, Yarn, Homebrew<br/>
+          <strong>Scripting Languages:</strong> UNIX and Shell scripting, PERL<br/>
+          <strong>Certifications:</strong> Base SAS certified, Advanced SAS certified
         </Typography>
       </section>
     );
